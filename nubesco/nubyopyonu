@@ -1,0 +1,29 @@
+echo "　 ＿_　　 ━┓
+　　 ／ 　＼ 　┏┛
+　 ／　　　＼ ・
+　｜　　　　＼ こんにちｷﾞｬｱｵ糞漏らしたｗｗｗｗｗｗｗｗｗｗｗ
+　｜　՞ةڼ◔　　 ｜
+　 ＼　　　　　/
+　　 ＼　　 _ノ
+　　　/　　　＼
+　　 ｜　　　 ｜
+　　 ｜　　　 ｜
+
+geto nubesco, your is haibokusya!! gahaha";
+
+echo -n "HOW MANY DO YOU WANT NUBESCO:";
+read inp;
+wideputin=`tput cols`
+wideputin=`expr $wideputin - 7`;
+
+for i in `seq 1 $inp`
+do
+	suka=`expr $RANDOM % $wideputin`;
+	for j in `seq 1 $suka`
+	do
+		echo -n " ";
+	done
+	echo "(՞ةڼ◔)";
+done
+
+exit 0;
